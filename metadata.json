@@ -1,6 +1,8 @@
 {
-  "name": "MYSELF. — A Personal Portfolio & Digital Journal",
-  "description": "A modern, minimalist digital journal and portfolio for a Self and Society academic project exploring identity, personal reflections, interviews, and manifestos.",
+  "name": "BEcoming: A Journey Within. — A Personal Portfolio & Digital Journal",
+  "description": "An exploration of my identity, values, experiences, and the little things that make me who I am.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
