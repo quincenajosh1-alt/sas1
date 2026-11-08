@@ -1,0 +1,6 @@
+{
+  "name": "MYSELF. — A Personal Portfolio & Digital Journal",
+  "description": "A modern, minimalist digital journal and portfolio for a Self and Society academic project exploring identity, personal reflections, interviews, and manifestos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
