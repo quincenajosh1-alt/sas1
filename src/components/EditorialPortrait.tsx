@@ -1,6 +1,13 @@
 import React from 'react';
 import { BookOpen, MapPin, Sparkles, Heart, Compass } from 'lucide-react';
 
+const resolveAsset = (path: string) => {
+  const base = import.meta.env.BASE_URL || './';
+  const cleanBase = base.endsWith('/') ? base : `${base}/`;
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  return `${cleanBase}${cleanPath}`;
+};
+
 export const EditorialPortrait: React.FC = () => {
   return (
     <div className="relative rounded-2xl overflow-hidden bg-[#FAF8F5] border border-[#DADFD5] p-6 lg:p-8 shadow-sm flex flex-col justify-between h-full">
@@ -31,8 +38,12 @@ export const EditorialPortrait: React.FC = () => {
         {/* Central Visual Showcase: The Reflective Scholar */}
         <div className="my-6 p-6 rounded-xl bg-[#E8E3DA]/70 border border-[#DADFD5] relative">
           <div className="flex items-center gap-4 mb-4">
-            <div className="w-16 h-16 rounded-full bg-[#343A35] text-[#F5F3EE] flex items-center justify-center font-serif-display text-2xl font-bold shadow-inner">
-              J.
+            <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#DADFD5] shadow-sm shrink-0 bg-[#343A35]">
+              <img
+                src={resolveAsset("assets/aistudio/IMG_0239_0d718059.jpg")}
+                alt="Josh holding a sunflower smiling"
+                className="w-full h-full object-cover object-[center_20%]"
+              />
             </div>
             <div>
               <h5 className="font-serif-display text-lg font-bold text-[#343A35]">Josh</h5>

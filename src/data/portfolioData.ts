@@ -94,7 +94,7 @@ export const REFLECTION_TOPICS: ReflectionTopic[] = [
       "One thing I learned from our discussion about body image is that the way we perceive ourselves is not entirely independent of our surroundings. Our body image can be influenced by social expectations, cultural standards of beauty, and how we think other people see us. Looking back, I realize how fortunate I am to have grown up surrounded by family and friends who never made me feel that I needed to change my appearance to deserve their acceptance.",
       "Because of this, I have learned that although I cannot always change my physical characteristics, I can change the way I perceive and carry myself. I am slowly understanding that confidence does not necessarily mean being completely satisfied with every aspect of my appearance. Sometimes, it simply means accepting that I am not perfect and choosing to appreciate myself anyway. For me, having people who love and accept me for who I am has been one of the greatest gifts, because their acceptance has also helped me learn to accept myself."
     ],
-    takeaway: "True confidence is not an illusion of physical perfection or living up to impossible commercial ideals. It is the quiet courage to accept oneself as imperfect yet whole, and to hold deep gratitude for a healthy body and the loving people who accept us without conditions.",
+    takeaway: "I am learning that confidence is not about having the perfect body or meeting other people's expectations. It is about accepting myself, including the things I may still be insecure about, and appreciating what my body can do. More importantly, I am grateful for the people who make me feel accepted and remind me that I am enough as I am.",
     keyThemes: ["Self-Acceptance", "Societal Standards", "Unconditional Support", "Gratitude", "Inner Confidence"]
   },
   {
@@ -146,7 +146,7 @@ export const REFLECTION_TOPICS: ReflectionTopic[] = [
       "Aside from my family, Filipino culture has also contributed to the way I understand myself and the world around me. Growing up in a culture that values resilience, resourcefulness, and pakikipagkapwa has influenced how I respond to challenges and interact with others. I have learned to adapt when circumstances do not go as planned, find solutions when resources are limited, and recognize the importance of maintaining meaningful relationships with the people around me.",
       "This connects to our discussion in Module 3 about how culture is internalized through socialization and becomes part of our attitudes, beliefs, and behavior. I realized that many of the things I consider natural about myself are actually values and practices I learned from my family and the society I grew up in. In this sense, my identity is not formed independently. It is also a reflection of the culture, traditions, and people that have surrounded me throughout my life."
     ],
-    takeaway: "My identity is deeply rooted in the warmth and fortitude of Filipino heritage. Values like pakikipagkapwa (recognizing the shared sacred dignity in others) and resourcefulness are not abstract cultural buzzwords; they are the living compass by which I navigate daily life and treat those around me.",
+    takeaway: "Being Filipino is a part of who I am and how I see the world. I grew up valuing pakikipagkapwa, respect, and resourcefulness, which continue to shape how I treat others and face life's challenges. These values remind me to stay grounded, be considerate, and make the most of what I have.",
     keyThemes: ["Filipino Culture", "Pakikipagkapwa", "Socialization", "Family Foundation", "Resourcefulness"]
   },
   {
@@ -180,7 +180,7 @@ export const REFLECTION_TOPICS: ReflectionTopic[] = [
       "I particularly enjoy the feeling of being surrounded by nature because it reminds me of how small I am in the grand scheme of things. Sometimes, I look at the vastness of the sky or the surroundings and realize that the problems I am facing, no matter how overwhelming they may seem at the moment, are only a small part of my entire life. It gives me comfort to remember that things change, difficult situations eventually pass, and I do not have to figure everything out all at once.",
       "I think this also reflects my optimistic personality and the way I have learned to cope with challenges. Rather than allowing my worries to consume me, I try to give myself time to process them and regain perspective. I am still learning how to take better care of my mental and emotional wellbeing, but one thing I have come to understand is that taking a step back does not mean giving up. Sometimes, it simply means giving myself the space I need to continue moving forward."
     ],
-    takeaway: "Taking a step back is not surrender; it is wisdom. The vastness of the sky and the stillness of a quiet walk remind me that challenges are transient chapters in a larger, beautiful journey.",
+    takeaway: "I have learned that taking a break does not mean giving up. Sometimes, I just need to slow down, take a walk, enjoy nature, and clear my mind. These quiet moments remind me that not every problem needs to be solved right away, and that things will eventually get better.",
     keyThemes: ["Nature Connection", "Stress Coping", "Vast Perspective", "Self-Care", "Emotional Resilience"]
   }
 ];

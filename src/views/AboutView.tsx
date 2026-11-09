@@ -166,7 +166,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
               Things I Am Still Learning About Myself
             </h3>
             <p className="text-sm sm:text-base text-[#343A35]/85 leading-relaxed">
-              I am learning that asking for help is not a compromise of my independence, but a sign of emotional wisdom. I am learning that taking a step back to breathe is not giving up—it is the space needed to keep moving forward. Most of all, I am learning that at 20, I do not need to possess all the answers today. Selfhood is an unfolding art.
+              I am learning that asking for help does not make me less independent. Sometimes, I just need to pause, breathe, and give myself time to figure things out. At 20, I know I still have a lot to learn, and I do not need to have everything figured out right away. I am still growing, and I want to enjoy the process of BEcoming.
             </p>
           </section>
         </div>
