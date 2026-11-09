@@ -173,30 +173,33 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate }) => {
 
         {/* Right Column: Editorial Portrait Artwork & Profile Showcase (lg:col-span-5) */}
         <div className="lg:col-span-5 flex flex-col">
-          <div className="sticky top-24">
+          <div>
             <EditorialPortrait />
-
-            {/* Quick Navigation Card Below Portrait */}
-            <div className="mt-6 p-6 rounded-2xl bg-[#FAF8F5] border border-[#DADFD5] space-y-4">
-              <div className="text-xs font-semibold uppercase tracking-wider text-[#356AE6]">
-                Next in the Journal
-              </div>
-              <h4 className="font-serif-display text-lg font-bold text-[#343A35]">
-                Dive into My 8 Academic Reflections
-              </h4>
-              <p className="text-xs text-[#343A35]/75 leading-relaxed">
-                From William James and Gordon Allport to Filipino culture and digital selfhood in the era of AI.
-              </p>
-              <button
-                onClick={() => onNavigate('reflections')}
-                className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 text-xs font-semibold text-white bg-[#356AE6] hover:bg-[#2855be] active:bg-[#1f4399] rounded-xl transition-all shadow-sm"
-              >
-                <span>Read My Reflections</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
           </div>
         </div>
+      </div>
+
+      {/* 4. Next Chapter Navigation Banner */}
+      <div className="p-8 sm:p-10 rounded-2xl bg-[#E8E3DA]/80 border border-[#DADFD5] flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div className="space-y-1 text-center sm:text-left">
+          <div className="text-xs font-semibold uppercase tracking-wider text-[#356AE6]">
+            Next in the Journal
+          </div>
+          <h4 className="font-serif-display text-xl sm:text-2xl font-bold text-[#343A35]">
+            Dive into My 8 Academic Reflections
+          </h4>
+          <p className="text-sm text-[#343A35]/75 leading-relaxed">
+            From William James and Gordon Allport to Filipino culture and digital selfhood in the era of AI.
+          </p>
+        </div>
+
+        <button
+          onClick={() => onNavigate('reflections')}
+          className="inline-flex items-center gap-2 px-6 py-3.5 text-xs sm:text-sm font-semibold text-white bg-[#356AE6] hover:bg-[#2855be] active:bg-[#1f4399] rounded-xl transition-all shadow-sm shrink-0"
+        >
+          <span>Read My Reflections</span>
+          <ArrowRight className="w-4 h-4" />
+        </button>
       </div>
     </div>
   );
