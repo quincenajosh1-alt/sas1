@@ -13,12 +13,19 @@ interface PhotoItem {
   stagePosition?: string;
 }
 
+const resolveAsset = (path: string) => {
+  const base = import.meta.env.BASE_URL || './';
+  const cleanBase = base.endsWith('/') ? base : `${base}/`;
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  return `${cleanBase}${cleanPath}`;
+};
+
 const JOURNEY_PHOTOS: PhotoItem[] = [
   {
     id: 1,
     title: "Family on My 18th Birthday",
     category: "Family Foundation",
-    src: "/assets/aistudio/IMG_2420_landscape.jpg",
+    src: resolveAsset("assets/aistudio/IMG_2420_landscape.jpg"),
     alt: "Josh with parents and sister smiling at the beach under canopy with blue sea and sky",
     caption: "Me and my family on my 18th birthday",
     isPortrait: false,
@@ -29,7 +36,7 @@ const JOURNEY_PHOTOS: PhotoItem[] = [
     id: 2,
     title: "Sister's 26th Birthday Celebration",
     category: "Family Memories",
-    src: "/assets/aistudio/IMG_9699_landscape.jpg",
+    src: resolveAsset("assets/aistudio/IMG_9699_landscape.jpg"),
     alt: "Josh and family celebrating his sister's 26th birthday at restaurant",
     caption: "My family celebrating my sister's 26th birthday",
     isPortrait: false,
@@ -40,7 +47,7 @@ const JOURNEY_PHOTOS: PhotoItem[] = [
     id: 3,
     title: "Graduation Milestones",
     category: "Friendship & Milestones",
-    src: "/assets/aistudio/e4a106cbe9d067b92d601fa7747c4d44_34e7a364.JPEG",
+    src: resolveAsset("assets/aistudio/e4a106cbe9d067b92d601fa7747c4d44_34e7a364.JPEG"),
     alt: "Josh and high school friends celebrating senior high graduation in caps, gowns, and stoles",
     caption: "My 5 years highschool friends",
     isPortrait: false,
@@ -51,7 +58,7 @@ const JOURNEY_PHOTOS: PhotoItem[] = [
     id: 4,
     title: "Laughter with Friends",
     category: "Peer Connections",
-    src: "/assets/aistudio/IMG_3929_767e9156.JPEG",
+    src: resolveAsset("assets/aistudio/IMG_3929_767e9156.JPEG"),
     alt: "Josh and group of close friends sitting on a couch in formal attire smiling and posing together",
     caption: "The people that found me in college",
     isPortrait: false,

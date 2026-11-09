@@ -111,7 +111,7 @@ export const REFLECTION_TOPICS: ReflectionTopic[] = [
       "Our discussion of Gordon Allport's definition of personality helped me understand that personality is a dynamic organization of psychological and physical characteristics that influence our patterns of behavior, thoughts, and feelings. Relating this to myself, I believe that my extroversion and adaptability are among the characteristics that consistently influence how I interact with others.",
       "However, I also recognize that a personality test cannot completely capture who I am. Although it can provide an idea of my dominant traits, there are still many aspects of myself that cannot simply be measured through a set of questions. I may be naturally outgoing, but I also have moments when I prefer to be alone, reflect, and process my thoughts. This made me realize that personality is not simply about assigning labels to ourselves. It is also about understanding the different ways we respond to people, situations, and experiences."
     ],
-    takeaway: "While personality assessments help us identify dominant tendencies like extroversion and social warmth, the human psyche remains far richer than any single score. True emotional maturity means honoring both the joyful social connector and the quiet, introspective thinker within.",
+    takeaway: "Personality tests can help me understand some of my traits, but I know that no result can fully define who I am. I can be outgoing and enjoy being around people, yet I also value quiet moments and time to reflect. Both sides are part of me, and I am learning to embrace them.",
     keyThemes: ["Gordon Allport", "Extroversion", "Adaptability", "Introspection", "Beyond Labels"]
   },
   {
